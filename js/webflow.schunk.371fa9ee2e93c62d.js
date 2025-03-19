@@ -1400,21 +1400,21 @@
                   (function () {
                     var t = e('<a class="w-webflow-badge"></a>').attr(
                         "href",
-                        "https://webflow.com?utm_campaign=brandjs"
+                        "#"
                       ),
                       a = e("<img>")
                         .attr(
                           "src",
-                          "https://d3e54v103j8qbb.cloudfront.net/img/webflow-badge-icon-d2.89e12c322e.svg"
+                          "#"
                         )
                         .attr("alt", "")
                         .css({ marginRight: "4px", width: "26px" }),
                       n = e("<img>")
                         .attr(
                           "src",
-                          "https://d3e54v103j8qbb.cloudfront.net/img/webflow-badge-text-d2.c82cec3b78.svg"
+                          "#"
                         )
-                        .attr("alt", "Made in Webflow");
+                        .attr("alt", "");
                     return t.append(a, n), t[0];
                   })()),
                 r(),
